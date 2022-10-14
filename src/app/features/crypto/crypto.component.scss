@@ -1,0 +1,19 @@
+.container {
+  width: 99vw;
+  height: 99vh;
+  padding: 36px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.row > button {
+  height: 2vh;
+  width: 8vh;
+  border-radius: 12px;
+  border: 0;
+  cursor: pointer;
+}

@@ -1,0 +1,10 @@
+<div class="container">
+    <div class="row">
+        <button (click)="this.updateTimeIntervalResolutionByWeek()">By Week</button>
+        <button (click)="this.updateTimeIntervalResolutionByDay()">By Month</button>
+        <button (click)="this.updateTimeIntervalResolutionByYear()">By Year</button>
+    </div>
+    <div class="graph-row">
+        <app-canvas [canvasProps]="this.cryptoStats"></app-canvas>
+    </div>
+</div>
